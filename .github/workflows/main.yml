@@ -20,14 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./path/to/project  # Update this path to the correct location of package.json
+        working-directory: https://github.com/Hansi-dev-co/IntelliVest/blob/master/package.json
 
       - name: Build project
         run: npm run build
-        working-directory: ./path/to/project  # Ensure this matches the install step
+        working-directory: https://github.com/Hansi-dev-co/IntelliVest/blob/master
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./path/to/build  # Update this if necessary
+          publish_dir: https://github.com/Hansi-dev-co/IntelliVest/blob/master
