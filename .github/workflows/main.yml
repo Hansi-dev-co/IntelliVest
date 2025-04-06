@@ -20,14 +20,11 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-      working-directory: ./  # Update this path if necessary
 
     - name: Build project
       run: npm run build
-      working-directory: ./# Update this path if necessary
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./path/to/your/build  # Update this path if necessary
