@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+pydantic
+requests
+google-cloud-aiplatform
+python-multipart
