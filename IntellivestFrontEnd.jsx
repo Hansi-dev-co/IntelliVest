@@ -7,7 +7,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AlertCircle } from "lucide-react"
 
 // API endpoint
-const API_BASE_URL = "https://hansi-dev-co.github.io/IntelliVest/";
+const API_BASE_URL = "https://github.com/Hansi-dev-co/IntelliVest/blob/main/intellivest-back-end.py";
 
 // Helper function to fetch data from the backend
 const fetchData = async (endpoint, method = 'GET', body = null) => {
